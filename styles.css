@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url(pw_images/background03.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'monospace', 'Courier New', Courier;
+}
+
+.content {
+    width: 80%;
+    background-color: rgba(0,0,0,0.8);
+    margin: 50px auto 50px  auto;
+    padding: 20px 20px 20px 20px;
+    max-width: 700px;
+  }
+
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+
+.name {
+    color: whitesmoke;
+    font-style: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 14ch;
+    animation: typing 2s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+.feature {
+    width: 80%;
+    position: relative;
+    margin: 50px auto;
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px 20px 20px 20px;
+    max-width: 700px;
+}
+
+.feature_title {
+    text-align: center;
+    color: whitesmoke;
+    font-style: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.preview_img {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.tagline {
+    font-style: italic;
+    padding-top: 0px;
+    text-align: center;
+}
+
+h2, p {
+    text-align: left;
+    color: whitesmoke;
+  }
+
+.p1 .p2 .p3 {
+    font-size: 28px;
+}
+
+.social {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.feature_png {
+    width: 40px;
+    height: 40px;
+
+}
+
+.feature_links {
+    display:grid;
+    place-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    }
+
+@keyframes typing {
+    from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+    50% {
+    border-color: transparent
+  }
+}
